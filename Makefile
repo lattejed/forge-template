@@ -2,13 +2,22 @@
 # (-include to ignore error if it does not exist)
 -include .env
 
-all: solc build
+all: clean remove install update solc build
 
 # Install proper solc version.
 solc:; solc-select install 0.8.10 && solc-select use 0.8.10
 
 # Clean the repo
 clean:; forge clean
+
+# Remove modules
+remove:; rm -rf .gitmodules && rm -rf .git/modules/* && rm -rf lib && touch .gitmodules && git add . && git commit -m "Removed submodules"
+
+# Install the Modules
+install:; forge install dapphub/ds-test && forge install rari-capital/solmate && forge install brockelmore/forge-std
+
+# Update Dependencies
+update:; forge update
 
 # Builds
 build:; forge clean && forge build --optimize --optimize-runs 1000000
