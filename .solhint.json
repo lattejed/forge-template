@@ -1,0 +1,22 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "compiler-version": [
+      "error",
+      "^0.8.10"
+    ],
+    "comprehensive-interface": "off",
+    "constructor-syntax": "error",
+    "func-order": "error",
+    "func-param-name-mixedcase": "error",
+    "modifier-name-mixedcase": "error",
+    "no-inline-assembly": "warn",
+    "ordering": "error",
+    "private-vars-leading-underscore": [
+      "error",
+      {
+        "strict": true
+      }
+    ]
+  }
+}
