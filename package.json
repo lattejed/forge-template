@@ -3,7 +3,7 @@
   "description": "Minimal Template for Foundry Projects",
   "author": "Matthew Smith <m@lattejed.com>",
   "license": "AGPL-3.0-only",
-  "version": "1.2.0",
+  "version": "0.0.1",
   "files": [
     "src/**/*.sol"
   ],
@@ -14,14 +14,18 @@
   "devDependencies": {
     "hardhat": "^2.7.0",
     "prettier": "^2.3.1",
-    "prettier-plugin-solidity": "^1.0.0-beta.13",
-    "solhint": "^3.3.7"
+    "prettier-plugin-solidity": "^1.0.0-beta.13"
   },
   "scripts": {
-    "setup": "make clean && make build",
-    "sync": "make update",
+    "install-libs": "make install-libs",
+    "update-libs": "make update-libs",
+    "install-solc": "make install-solc",
+    "lint": "make lint",
+    "build": "make build",
     "test": "make test",
-    "snapshot": "make snapshot",
-    "lint": "make lint"
+    "gas-snapshot": "make gas-snapshot",
+    "clean": "make clean",
+    "fork-mainnet": "make fork-mainnet",
+    "chmod-scripts": "make chmod-scripts"
   }
 }
