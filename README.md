@@ -40,6 +40,10 @@ npm install
 make test
 ```
 
+## Advanced Usage
+
+Check `./scripts` for additional tools and `package.json` / `Makefile` for a full list of available commands. Also run `forge --help` for an extensive list of functionality.
+
 ## WebStorm Settings
 
 The WebStorm Solidity plugin doesn't currently have support for remappings, so you may want to disable name resolution to prevent warnings in the editor.
