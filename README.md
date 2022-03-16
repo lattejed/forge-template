@@ -52,7 +52,7 @@ The WebStorm Solidity plugin doesn't currently have support for remappings, so y
 
 You can also set up `prettier` to run on format and save. Make sure the package references the `prettier` module under `node_modules` and add `sol` to the list of extensions. 
 
-<img width="997" src="./assets/webstorm-prettier-settings.png" alt="webstorm-prettier-settings.png" />
+<img width="662" src="./assets/webstorm-prettier-settings.png" alt="webstorm-prettier-settings.png" />
 
 ## Disclaimer
 
