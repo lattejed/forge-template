@@ -2,5 +2,7 @@ build/
 coverage/
 out/
 lib/
+cache/
 assets/
 node_modules/
+.run/
