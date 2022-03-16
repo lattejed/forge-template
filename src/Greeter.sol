@@ -20,5 +20,6 @@ contract Greeter {
         keccak256(abi.encodePacked((greeting = _gm))),
       "WRONG_GM"
     );
+    return "";
   }
 }
