@@ -8,7 +8,6 @@ import { Vm } from "@std/Vm.sol";
 
 contract DSTestPlus is DSTest, stdCheats {
   /// @dev Use forge-std Vm logic
-  // solhint-disable-next-line const-name-snakecase
   Vm public constant vm = Vm(HEVM_ADDRESS);
 
   function _assertERC20Eq(ERC20 erc1, ERC20 erc2) internal {
