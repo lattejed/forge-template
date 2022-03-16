@@ -48,11 +48,11 @@ Check `./scripts` for additional tools and `package.json` / `Makefile` for a ful
 
 The WebStorm Solidity plugin doesn't currently have support for remappings, so you may want to disable name resolution to prevent warnings in the editor.
 
-<img style="max-width: 662.5px" src="./assets/webstorm-inspection-settings.png" />
+<img width="662" src="./assets/webstorm-inspection-settings.png" alt="webstorm-inspection-settings.png" />
 
 You can also set up `prettier` to run on format and save. Make sure the package references the `prettier` module under `node_modules` and add `sol` to the list of extensions. 
 
-<img style="max-width: 997.5px" src="./assets/webstorm-prettier-settings.png" />
+<img width="997" src="./assets/webstorm-prettier-settings.png" alt="webstorm-prettier-settings.png" />
 
 ## Disclaimer
 
