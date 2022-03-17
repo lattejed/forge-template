@@ -3,7 +3,7 @@
 build/
 cache/
 out/
-lib/
+#lib/
 node_modules/*
 node_modules
 coverage/
