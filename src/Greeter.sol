@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
-pragma solidity ^0.8.10;
+pragma solidity >=0.8.10 <0.9.0;
 
 /// @title Greeter
 /// @author Andreas Bigger <andreas@nascent.xyz>
