@@ -1,10 +1,8 @@
 # Forge Template
 
-This is a clone of [gakonst/femplate](https://github.com/gakonst/femplate) and [abigger87/femplate](https://github.com/abigger87/femplate) with support for `dapptools` removed and **VS Code** settings replaced with **WebStorm** settings for users already in the JetBrains ecosystem.
+This is a clone of [gakonst/femplate](https://github.com/gakonst/femplate) and [abigger87/femplate](https://github.com/abigger87/femplate) with support for `dapptools` removed.
 
-It uses `prettier` for linting and formatting and [Foundry](https://github.com/gakonst/foundry) for the testing, deploying, etc. of Solidity contracts.
-
-It includes a number of helper scripts as well as **pre-configured run configurations for WebStorm**.
+It uses `prettier` for formatting, `solhint` for linting and [Foundry](https://github.com/gakonst/foundry) for the testing, deploying, etc. of Solidity contracts.
 
 ## Prerequisites
 
@@ -12,7 +10,7 @@ It includes a number of helper scripts as well as **pre-configured run configura
 2. `make`
 3. `solc-select`
 4. `foundryup` / `foundry`
-5. **WebStorm** or another JetBrains IDE
+5. VSCode
 
 ## Getting Started
 
@@ -44,15 +42,9 @@ make test
 
 Check `./scripts` for additional tools and `package.json` / `Makefile` for a full list of available commands. Also run `forge --help` for an extensive list of functionality.
 
-## WebStorm Settings
+## VSCode Settings
 
-The WebStorm Solidity plugin doesn't currently have support for remappings, so you may want to disable name resolution to prevent warnings in the editor.
-
-<img width="662" src="./assets/webstorm-inspection-settings.png" alt="webstorm-inspection-settings.png" />
-
-You can also set up `prettier` to run on format and save. Make sure the package references the `prettier` module under `node_modules` and add `sol` to the list of extensions. 
-
-<img width="662" src="./assets/webstorm-prettier-settings.png" alt="webstorm-prettier-settings.png" />
+Project level settings for VSCode have been included as well as plugin recommendations.
 
 ## Disclaimer
 
