@@ -1,3 +1,7 @@
+# NOTICE: 
+
+## Due to poor Solidity support in Jetbrains IDEs, this has been deprecated in favor of a VS Code setup. This will no longer be updated.
+
 # Forge Template
 
 This is a clone of [gakonst/femplate](https://github.com/gakonst/femplate) and [abigger87/femplate](https://github.com/abigger87/femplate) with support for `dapptools` removed and **VS Code** settings replaced with **WebStorm** settings for users already in the JetBrains ecosystem.
